@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { BacktrakingComponent } from './backtraking/backtraking.component';
+import { TimetableComponent } from './timetable/timetable.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    BacktrakingComponent
+    AppComponent,    
+    TimetableComponent
   ],
   imports: [
     BrowserModule
